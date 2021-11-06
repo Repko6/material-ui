@@ -1,7 +1,7 @@
 import "./app.css";
-import Content from "./Content";
-import Sidebar from "./Sidebar";
-import Navbar from "./Navbar";
+import Content from "./components/page-components/Content";
+import Sidebar from "./components/page-components/Sidebar";
+import Navbar from "./components/page-components/Navbar";
 import { Outlet } from "react-router";
 
 function App() {

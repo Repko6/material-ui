@@ -5,6 +5,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import News from "./pages/News";
+import FirstTeam from "./pages/FirstTeam";
+import Games from "./pages/Games";
 
 render(
   <BrowserRouter>
@@ -13,6 +15,8 @@ render(
         <Route index element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/o-klubu" element={<About />} />
+        <Route path="/utakmice" element={<Games />} />
+        <Route path="/seniori" element={<FirstTeam />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/novosti" element={<News />} />
         <Route
