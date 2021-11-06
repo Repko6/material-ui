@@ -1,32 +1,32 @@
-import AddReactionIcon from "@mui/icons-material/AddReaction";
-import AirportShuttleIcon from "@mui/icons-material/AirportShuttle";
-import ArchitectureIcon from "@mui/icons-material/Architecture";
-import Filter9PlusIcon from "@mui/icons-material/Filter9Plus";
+import HomeIcon from "@mui/icons-material/Home";
+import InfoIcon from "@mui/icons-material/Info";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
+import AnnouncementIcon from "@mui/icons-material/Announcement";
 
 const routes = [
   {
     path: "/",
     title: "Home",
-    icon: <AddReactionIcon />,
+    icon: <HomeIcon />,
     name: "Home",
-  },
-  {
-    path: "/about",
-    title: "About",
-    icon: <AirportShuttleIcon />,
-    name: "About",
   },
   {
     path: "/news",
     title: "News",
-    icon: <ArchitectureIcon />,
+    icon: <AnnouncementIcon />,
     name: "News",
   },
   {
     path: "/contact",
     title: "Contact",
-    icon: <Filter9PlusIcon />,
+    icon: <ContactMailIcon />,
     name: "Contact",
+  },
+  {
+    path: "/about",
+    title: "About",
+    icon: <InfoIcon />,
+    name: "About",
   },
 ];
 
