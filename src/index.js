@@ -12,9 +12,9 @@ render(
       <Route path="/" element={<App />}>
         <Route index element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/news" element={<News />} />
+        <Route path="/o-klubu" element={<About />} />
+        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/novosti" element={<News />} />
         <Route
           path="*"
           element={

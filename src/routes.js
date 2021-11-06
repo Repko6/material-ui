@@ -6,27 +6,27 @@ import AnnouncementIcon from "@mui/icons-material/Announcement";
 const routes = [
   {
     path: "/",
-    title: "Home",
+    title: "Naslovna",
     icon: <HomeIcon />,
-    name: "Home",
+    name: "Naslovna",
   },
   {
-    path: "/news",
-    title: "News",
+    path: "/novosti",
+    title: "Novosti",
     icon: <AnnouncementIcon />,
-    name: "News",
+    name: "Novosti",
   },
   {
-    path: "/contact",
-    title: "Contact",
+    path: "/kontakt",
+    title: "Kontakt",
     icon: <ContactMailIcon />,
-    name: "Contact",
+    name: "Kontakt",
   },
   {
-    path: "/about",
-    title: "About",
+    path: "/o-klubu",
+    title: "O klubu",
     icon: <InfoIcon />,
-    name: "About",
+    name: "O klubu",
   },
 ];
 
