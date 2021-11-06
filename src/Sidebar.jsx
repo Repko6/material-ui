@@ -1,15 +1,15 @@
 import Menu from "./Menu";
 import SportsSoccerIcon from "@mui/icons-material/SportsSoccer";
-import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-top">
-        <a href="#">
+        <Link to="/">
           <SportsSoccerIcon fontSize="large" />
           <span>Borac Retkovci</span>
-        </a>
+        </Link>
       </div>
       <div className="sidebar-middle">
         <Menu />
